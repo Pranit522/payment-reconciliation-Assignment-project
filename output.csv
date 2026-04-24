@@ -1,0 +1,8 @@
+txn_id,amount_company,date_company,amount_bank,date_bank,is_duplicate,status
+T001,1000.0,2026-04-01,1000.0,2026-04-02,False,Matched
+T002,500.0,2026-04-02,500.0,2026-04-03,False,Matched
+T003,700.0,2026-04-03,750.0,2026-04-05,False,Amount Mismatch
+T004,1200.0,2026-04-04,,,,Not Settled
+T005,,,1500.0,2026-04-06,False,Extra Bank Entry
+T006,500.0,2026-04-05,500.0,2026-04-05,True,Matched
+T006,500.0,2026-04-05,500.0,2026-04-05,True,Matched
